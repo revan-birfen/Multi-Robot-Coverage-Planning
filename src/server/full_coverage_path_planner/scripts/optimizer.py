@@ -40,8 +40,8 @@ class BaseOptimizer(object):
         n_agents = np.clip(n_agents, a_min=2, a_max=5).astype(dtype=np.uint8)
 
         rospy.loginfo(f"Solved. N_AGENTS: {n_agents}")
-        return n_agents
-        # return 1
+        # return n_agents
+        return 1
 
 
 class OptimizerFromImage(BaseOptimizer):
