@@ -36,8 +36,8 @@ rosdep install -y -i --from-paths ./src
 ```bash
 catkin_make --cmake-args -DCMAKE_BUILD_TYPE=Release
 ```
-# Before Run the code you should make sure that the GUI parameter in the multi_robot.launch value="true"
-# You can change the number of agents by uncomment the return 1 and comment the return n_agent in the optimizer.py file   def solve(cls, navigable_area, resolution):
+#### Before Run the code you should make sure that the GUI parameter in the multi_robot.launch value="true"
+#### You can change the number of agents by uncomment the return 1 and comment the return n_agent in the optimizer.py file   def solve
 ### Run the tests to make sure everything is setup correctly (optional)
 
 ```bash
